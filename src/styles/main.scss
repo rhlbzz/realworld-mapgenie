@@ -1,0 +1,21 @@
+@use 'shared' as *;
+@use 'variables' as *;
+
+@import 'typography';
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: $c-gray;
+  color: $c-light-gray;
+}
+
+button {
+  background-color: transparent;
+}
