@@ -9,7 +9,7 @@ export default defineComponent({
   props: {
     //
   },
-  setup (props, { attrs, slots, emit }) {
+  setup () {
     //
     return {
       //
